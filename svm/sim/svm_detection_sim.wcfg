@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/homes/tgroleat/Documents/These/Xilinx/analyse-trafic-fpga/xilinx/combov2_svm_classifier/svm_detection_test_v_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="svm_detection_test_v" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="36" />
+   <wvobject fp_name="/svm_detection_test_v/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x[32:0]</obj_property>
+      <obj_property name="ObjectShortName">x[32:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/\roll[0].kernel_computation /x_vector" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_vector[0:2,10:0]</obj_property>
+      <obj_property name="ObjectShortName">x_vector[0:2,10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/data_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_valid</obj_property>
+      <obj_property name="ObjectShortName">data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/class" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">class[3:0]</obj_property>
+      <obj_property name="ObjectShortName">class[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/new_result" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">new_result</obj_property>
+      <obj_property name="ObjectShortName">new_result</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/output_ref" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output_ref[3:0]</obj_property>
+      <obj_property name="ObjectShortName">output_ref[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/input_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">input_counter[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/output_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output_counter[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/error" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">error</obj_property>
+      <obj_property name="ObjectShortName">error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/\roll[0].kernel_computation /distances" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">distances[0:27,27:0]</obj_property>
+      <obj_property name="ObjectShortName">distances[0:27,27:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/distances_sum" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">distances_sum[0:27,27:0]</obj_property>
+      <obj_property name="ObjectShortName">distances_sum[0:27,27:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/rho" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rho[0:27,16:0]</obj_property>
+      <obj_property name="ObjectShortName">rho[0:27,16:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/comparisons" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">comparisons[0:27]</obj_property>
+      <obj_property name="ObjectShortName">comparisons[0:27]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/votes_list" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">votes_list[0:7,6:0]</obj_property>
+      <obj_property name="ObjectShortName">votes_list[0:7,6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/votes_tmp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">votes_tmp[0:2,0:3,3:0]</obj_property>
+      <obj_property name="ObjectShortName">votes_tmp[0:2,0:3,3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/votes" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">votes[0:7,3:0]</obj_property>
+      <obj_property name="ObjectShortName">votes[0:7,3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/\roll[0].kernel_computation /enable_dist" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_dist</obj_property>
+      <obj_property name="ObjectShortName">enable_dist</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/\roll[0].kernel_computation /x_vector" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_vector[0:2,10:0]</obj_property>
+      <obj_property name="ObjectShortName">x_vector[0:2,10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/svm_detection_test_v/uut/\roll[0].kernel_computation /x_vector[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,10:0]</obj_property>
+         <obj_property name="ObjectShortName">x_vector[0,10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_detection_test_v/uut/\roll[0].kernel_computation /x_vector[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,10:0]</obj_property>
+         <obj_property name="ObjectShortName">x_vector[1,10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_detection_test_v/uut/\roll[0].kernel_computation /x_vector[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,10:0]</obj_property>
+         <obj_property name="ObjectShortName">x_vector[2,10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/\roll[0].x_read " type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">\roll[0].x_read [32:0]</obj_property>
+      <obj_property name="ObjectShortName">\roll[0].x_read [32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/\roll[0].sv_read " type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">\roll[0].sv_read [32:0]</obj_property>
+      <obj_property name="ObjectShortName">\roll[0].sv_read [32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/\roll[0].counter_read " type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">\roll[0].counter_read [9:0]</obj_property>
+      <obj_property name="ObjectShortName">\roll[0].counter_read [9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/\roll[0].enable_read " type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">\roll[0].enable_read </obj_property>
+      <obj_property name="ObjectShortName">\roll[0].enable_read </obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/\roll[0].enable_compute " type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">\roll[0].enable_compute </obj_property>
+      <obj_property name="ObjectShortName">\roll[0].enable_compute </obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/\roll[0].distance_computed " type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">\roll[0].distance_computed [783:0]</obj_property>
+      <obj_property name="ObjectShortName">\roll[0].distance_computed [783:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/\roll[0].enable_reg_keep " type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">\roll[0].enable_reg_keep [0:22]</obj_property>
+      <obj_property name="ObjectShortName">\roll[0].enable_reg_keep [0:22]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/distance_ready_keep" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">distance_ready_keep</obj_property>
+      <obj_property name="ObjectShortName">distance_ready_keep</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/distances_keep" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">distances_keep[0:1,0:27,27:0]</obj_property>
+      <obj_property name="ObjectShortName">distances_keep[0:1,0:27,27:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/svm_detection_test_v/uut/distances_keep[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,0:27,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances_keep[0,0:27,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_detection_test_v/uut/distances_keep[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,0:27,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances_keep[1,0:27,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/distances_sum" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">distances_sum[0:27,27:0]</obj_property>
+      <obj_property name="ObjectShortName">distances_sum[0:27,27:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/distance_ready_keep" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">distance_ready_keep</obj_property>
+      <obj_property name="ObjectShortName">distance_ready_keep</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/enable_compare" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_compare</obj_property>
+      <obj_property name="ObjectShortName">enable_compare</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/comparisons" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">comparisons[0:27]</obj_property>
+      <obj_property name="ObjectShortName">comparisons[0:27]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/votes" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">votes[0:7,3:0]</obj_property>
+      <obj_property name="ObjectShortName">votes[0:7,3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_detection_test_v/uut/\roll[0].coef_sign_read " type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">\roll[0].coef_sign_read [6:0]</obj_property>
+      <obj_property name="ObjectShortName">\roll[0].coef_sign_read [6:0]</obj_property>
+   </wvobject>
+</wave_config>

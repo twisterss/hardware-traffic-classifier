@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/homes/tgroleat/Documents/These/Xilinx/analyse-trafic-fpga/xilinx/combov2_svm_classifier/tb_flow_storage_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_flow_storage" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="39" />
+   <wave_markers>
+      <marker time="41426500000" label="" />
+      <marker time="39232400000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_flow_storage/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/read_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_ready</obj_property>
+      <obj_property name="ObjectShortName">read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/read_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_en</obj_property>
+      <obj_property name="ObjectShortName">read_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/read_data_new" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data_new</obj_property>
+      <obj_property name="ObjectShortName">read_data_new</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/read_data_found" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data_found</obj_property>
+      <obj_property name="ObjectShortName">read_data_found</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/read_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_id[103:0]</obj_property>
+      <obj_property name="ObjectShortName">read_id[103:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/read_edit_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_edit_id[263:0]</obj_property>
+      <obj_property name="ObjectShortName">read_edit_id[263:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/read_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data[39:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[39:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/write_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_ready</obj_property>
+      <obj_property name="ObjectShortName">write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/write_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_en</obj_property>
+      <obj_property name="ObjectShortName">write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/write_edit_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_edit_id[263:0]</obj_property>
+      <obj_property name="ObjectShortName">write_edit_id[263:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/write_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_id[103:0]</obj_property>
+      <obj_property name="ObjectShortName">write_id[103:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/write_old" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_old</obj_property>
+      <obj_property name="ObjectShortName">write_old</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/write_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_data[39:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[39:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/error" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">error</obj_property>
+      <obj_property name="ObjectShortName">error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/timestamp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">timestamp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">timestamp[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/read_search_data_timestamp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_search_data_timestamp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">read_search_data_timestamp[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/read_search_data_current" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_search_data_current</obj_property>
+      <obj_property name="ObjectShortName">read_search_data_current</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/read_search_data_hash_ok" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_search_data_hash_ok</obj_property>
+      <obj_property name="ObjectShortName">read_search_data_hash_ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/write_redundancy" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_redundancy[2:0]</obj_property>
+      <obj_property name="ObjectShortName">write_redundancy[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/write_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">write_counter[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/read_search_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_search_counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">read_search_counter[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/read_search_counter_res" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_search_counter_res[2:0]</obj_property>
+      <obj_property name="ObjectShortName">read_search_counter_res[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/read_active_hashes" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_active_hashes[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_active_hashes[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/read_search_active_hashes" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_search_active_hashes[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_search_active_hashes[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/ram/read_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_en</obj_property>
+      <obj_property name="ObjectShortName">read_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/ram/read_data_new" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data_new</obj_property>
+      <obj_property name="ObjectShortName">read_data_new</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/read_send_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_send_enable</obj_property>
+      <obj_property name="ObjectShortName">read_send_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/ram/write_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_en</obj_property>
+      <obj_property name="ObjectShortName">write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/ram/ram/write_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_addr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/ram/ram/read_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_addr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/read_search_data_hash" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_search_data_hash[23:0]</obj_property>
+      <obj_property name="ObjectShortName">read_search_data_hash[23:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/read_hash_saved_res" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_hash_saved_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_hash_saved_res[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/read_search_highest_redundancy" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_search_highest_redundancy[2:0]</obj_property>
+      <obj_property name="ObjectShortName">read_search_highest_redundancy[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/read_search_highest_redundancy_hash" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_search_highest_redundancy_hash[2:0]</obj_property>
+      <obj_property name="ObjectShortName">read_search_highest_redundancy_hash[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/read_search_found" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_search_found</obj_property>
+      <obj_property name="ObjectShortName">read_search_found</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/read_search_counter_res" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_search_counter_res[2:0]</obj_property>
+      <obj_property name="ObjectShortName">read_search_counter_res[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_flow_storage/uut/read_search_res_new" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_search_res_new</obj_property>
+      <obj_property name="ObjectShortName">read_search_res_new</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/homes/tgroleat/Documents/These/Xilinx/ise-classifier/classifier/flow_lookup_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="flow_lookup_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/flow_lookup_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flow_lookup_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flow_lookup_test/in_wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_wr</obj_property>
+      <obj_property name="ObjectShortName">in_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flow_lookup_test/in_flow_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_flow_id[103:0]</obj_property>
+      <obj_property name="ObjectShortName">in_flow_id[103:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flow_lookup_test/in_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_ready</obj_property>
+      <obj_property name="ObjectShortName">in_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flow_lookup_test/out_wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_wr</obj_property>
+      <obj_property name="ObjectShortName">out_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flow_lookup_test/out_flow_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_flow_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_flow_addr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flow_lookup_test/out_flow_new" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_flow_new</obj_property>
+      <obj_property name="ObjectShortName">out_flow_new</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flow_lookup_test/uut/ram/we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flow_lookup_test/uut/in_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_reset</obj_property>
+      <obj_property name="ObjectShortName">in_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flow_lookup_test/uut/reset_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reset_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reset_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flow_lookup_test/uut/ram/we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flow_lookup_test/uut/ram/ram" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram[255:0,103:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[255:0,103:0]</obj_property>
+   </wvobject>
+</wave_config>

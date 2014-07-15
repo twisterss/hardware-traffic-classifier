@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/homes/tgroleat/Documents/These/Xilinx/analyse-trafic-fpga/xilinx/combov2_svm_classifier/tb_cordic_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_cordic" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tb_cordic/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x[20:0]</obj_property>
+      <obj_property name="ObjectShortName">x[20:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y[20:0]</obj_property>
+      <obj_property name="ObjectShortName">y[20:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">result[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/data_valid_nxt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_valid_nxt</obj_property>
+      <obj_property name="ObjectShortName">data_valid_nxt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/e_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">e_value[0:19,20:0]</obj_property>
+      <obj_property name="ObjectShortName">e_value[0:19,20:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/tb_cordic/uut/e_value[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[0,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[1,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[2,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[3,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[4,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[5,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[6,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[7,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[8,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[9,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[10,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[11,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[12,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[13,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[14,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[15,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[16,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[17,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[18,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/e_value[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19,20:0]</obj_property>
+         <obj_property name="ObjectShortName">e_value[19,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/b_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b_value[0:19,20:0]</obj_property>
+      <obj_property name="ObjectShortName">b_value[0:19,20:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/tb_cordic/uut/b_value[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[0,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[1,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[2,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[3,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[4,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[5,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[6,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[7,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[8,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[9,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[10,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[11,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[12,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[13,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[14,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[15,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[16,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[17,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[18,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_cordic/uut/b_value[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19,20:0]</obj_property>
+         <obj_property name="ObjectShortName">b_value[19,20:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

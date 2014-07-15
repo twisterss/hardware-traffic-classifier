@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/homes/tgroleat/Documents/These/Xilinx/analyse-trafic-fpga/xilinx/combov2_svm_classifier/sram_intf_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sram_intf_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/sram_intf_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sram_intf_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sram_intf_test/write_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_ready</obj_property>
+      <obj_property name="ObjectShortName">write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sram_intf_test/read_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_ready</obj_property>
+      <obj_property name="ObjectShortName">read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sram_intf_test/uut/ram/read_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data[71:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[71:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sram_intf_test/uut/read_data_synth" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data_synth[71:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_synth[71:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sram_intf_test/read_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data[71:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[71:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sram_intf_test/read_data_new" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data_new</obj_property>
+      <obj_property name="ObjectShortName">read_data_new</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sram_intf_test/write_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_en</obj_property>
+      <obj_property name="ObjectShortName">write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sram_intf_test/write_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sram_intf_test/write_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_data[71:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[71:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sram_intf_test/read_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_en</obj_property>
+      <obj_property name="ObjectShortName">read_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sram_intf_test/read_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

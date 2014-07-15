@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/homes/tgroleat/Documents/These/Xilinx/analyse-trafic-fpga/xilinx/combov2_svm_classifier/svm_kernel_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="svm_kernel_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="25" />
+   <wave_markers>
+      <marker time="310000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/svm_kernel_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/new_computation" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">new_computation</obj_property>
+      <obj_property name="ObjectShortName">new_computation</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/data_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_valid</obj_property>
+      <obj_property name="ObjectShortName">data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x[32:0]</obj_property>
+      <obj_property name="ObjectShortName">x[32:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/sv" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sv[32:0]</obj_property>
+      <obj_property name="ObjectShortName">sv[32:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/sv_class" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sv_class[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sv_class[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/coef" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">coef[111:0]</obj_property>
+      <obj_property name="ObjectShortName">coef[111:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/coef_sign" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">coef_sign[6:0]</obj_property>
+      <obj_property name="ObjectShortName">coef_sign[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/distance" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">distance[783:0]</obj_property>
+      <obj_property name="ObjectShortName">distance[783:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/uut/x_vector" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_vector[0:2,10:0]</obj_property>
+      <obj_property name="ObjectShortName">x_vector[0:2,10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/svm_kernel_test/uut/x_vector[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,10:0]</obj_property>
+         <obj_property name="ObjectShortName">x_vector[0,10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/x_vector[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,10:0]</obj_property>
+         <obj_property name="ObjectShortName">x_vector[1,10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/x_vector[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,10:0]</obj_property>
+         <obj_property name="ObjectShortName">x_vector[2,10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/uut/sv_vector" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sv_vector[0:2,10:0]</obj_property>
+      <obj_property name="ObjectShortName">sv_vector[0:2,10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/svm_kernel_test/uut/sv_vector[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,10:0]</obj_property>
+         <obj_property name="ObjectShortName">sv_vector[0,10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/sv_vector[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,10:0]</obj_property>
+         <obj_property name="ObjectShortName">sv_vector[1,10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/sv_vector[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,10:0]</obj_property>
+         <obj_property name="ObjectShortName">sv_vector[2,10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/uut/diff_vector" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">diff_vector[0:2,11:0]</obj_property>
+      <obj_property name="ObjectShortName">diff_vector[0:2,11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/svm_kernel_test/uut/diff_vector[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,11:0]</obj_property>
+         <obj_property name="ObjectShortName">diff_vector[0,11:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/diff_vector[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,11:0]</obj_property>
+         <obj_property name="ObjectShortName">diff_vector[1,11:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/diff_vector[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,11:0]</obj_property>
+         <obj_property name="ObjectShortName">diff_vector[2,11:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/uut/diff_vector_abs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">diff_vector_abs[0:2,10:0]</obj_property>
+      <obj_property name="ObjectShortName">diff_vector_abs[0:2,10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/svm_kernel_test/uut/diff_vector_abs[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,10:0]</obj_property>
+         <obj_property name="ObjectShortName">diff_vector_abs[0,10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/diff_vector_abs[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,10:0]</obj_property>
+         <obj_property name="ObjectShortName">diff_vector_abs[1,10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/diff_vector_abs[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,10:0]</obj_property>
+         <obj_property name="ObjectShortName">diff_vector_abs[2,10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/uut/diff_vector_packed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">diff_vector_packed[32:0]</obj_property>
+      <obj_property name="ObjectShortName">diff_vector_packed[32:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/uut/diff_sum_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">diff_sum_out[12:0]</obj_property>
+      <obj_property name="ObjectShortName">diff_sum_out[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/uut/cordic_shift_tmp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cordic_shift_tmp[12:0]</obj_property>
+      <obj_property name="ObjectShortName">cordic_shift_tmp[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/uut/cordic_shift" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cordic_shift[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cordic_shift[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/uut/cordic_input" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cordic_input[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cordic_input[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/uut/coefs_scaled" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">coefs_scaled[0:6,15:0]</obj_property>
+      <obj_property name="ObjectShortName">coefs_scaled[0:6,15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/svm_kernel_test/uut/coefs_scaled[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,15:0]</obj_property>
+         <obj_property name="ObjectShortName">coefs_scaled[0,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/coefs_scaled[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,15:0]</obj_property>
+         <obj_property name="ObjectShortName">coefs_scaled[1,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/coefs_scaled[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,15:0]</obj_property>
+         <obj_property name="ObjectShortName">coefs_scaled[2,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/coefs_scaled[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,15:0]</obj_property>
+         <obj_property name="ObjectShortName">coefs_scaled[3,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/coefs_scaled[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,15:0]</obj_property>
+         <obj_property name="ObjectShortName">coefs_scaled[4,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/coefs_scaled[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,15:0]</obj_property>
+         <obj_property name="ObjectShortName">coefs_scaled[5,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/coefs_scaled[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,15:0]</obj_property>
+         <obj_property name="ObjectShortName">coefs_scaled[6,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/uut/cordic_output_rdy_nxt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cordic_output_rdy_nxt</obj_property>
+      <obj_property name="ObjectShortName">cordic_output_rdy_nxt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/uut/cordic_output" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cordic_output[0:6,15:0]</obj_property>
+      <obj_property name="ObjectShortName">cordic_output[0:6,15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/svm_kernel_test/uut/cordic_output[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,15:0]</obj_property>
+         <obj_property name="ObjectShortName">cordic_output[0,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/cordic_output[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,15:0]</obj_property>
+         <obj_property name="ObjectShortName">cordic_output[1,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/cordic_output[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,15:0]</obj_property>
+         <obj_property name="ObjectShortName">cordic_output[2,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/cordic_output[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,15:0]</obj_property>
+         <obj_property name="ObjectShortName">cordic_output[3,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/cordic_output[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,15:0]</obj_property>
+         <obj_property name="ObjectShortName">cordic_output[4,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/cordic_output[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,15:0]</obj_property>
+         <obj_property name="ObjectShortName">cordic_output[5,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/cordic_output[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,15:0]</obj_property>
+         <obj_property name="ObjectShortName">cordic_output[6,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/uut/cordic_output_shifted" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cordic_output_shifted[0:6,15:0]</obj_property>
+      <obj_property name="ObjectShortName">cordic_output_shifted[0:6,15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/svm_kernel_test/uut/cordic_output_shifted[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,15:0]</obj_property>
+         <obj_property name="ObjectShortName">cordic_output_shifted[0,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/cordic_output_shifted[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,15:0]</obj_property>
+         <obj_property name="ObjectShortName">cordic_output_shifted[1,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/cordic_output_shifted[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,15:0]</obj_property>
+         <obj_property name="ObjectShortName">cordic_output_shifted[2,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/cordic_output_shifted[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,15:0]</obj_property>
+         <obj_property name="ObjectShortName">cordic_output_shifted[3,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/cordic_output_shifted[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,15:0]</obj_property>
+         <obj_property name="ObjectShortName">cordic_output_shifted[4,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/cordic_output_shifted[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,15:0]</obj_property>
+         <obj_property name="ObjectShortName">cordic_output_shifted[5,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/cordic_output_shifted[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,15:0]</obj_property>
+         <obj_property name="ObjectShortName">cordic_output_shifted[6,15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/uut/coef_sign_reg_dist" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">coef_sign_reg_dist[6:0]</obj_property>
+      <obj_property name="ObjectShortName">coef_sign_reg_dist[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/svm_kernel_test/uut/distances" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">distances[0:27,27:0]</obj_property>
+      <obj_property name="ObjectShortName">distances[0:27,27:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[0,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[1,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[2,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[3,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[4,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[5,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[6,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[7,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[8,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[9,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[10,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[11,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[12,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[13,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[14,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[15,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[16,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[17,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[18,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[19,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[20,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[21,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[22,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[23,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[24,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[25,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[26,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/svm_kernel_test/uut/distances[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27,27:0]</obj_property>
+         <obj_property name="ObjectShortName">distances[27,27:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

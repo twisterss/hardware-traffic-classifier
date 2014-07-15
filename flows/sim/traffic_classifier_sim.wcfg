@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/homes/tgroleat/Documents/These/Xilinx/analyse-trafic-fpga/xilinx/combov2_svm_classifier/traffic_classifier_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="traffic_classifier_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="41" />
+   <wvobject fp_name="/traffic_classifier_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/in_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in_data[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/in_ctrl" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_ctrl[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in_ctrl[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/out_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_rdy</obj_property>
+      <obj_property name="ObjectShortName">out_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/out_wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_wr</obj_property>
+      <obj_property name="ObjectShortName">out_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/out_ctrl" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_ctrl[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_ctrl[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/out_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out_data[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/result_spec" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result_spec[167:0]</obj_property>
+      <obj_property name="ObjectShortName">result_spec[167:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/data_to_send" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_to_send[223:0]</obj_property>
+      <obj_property name="ObjectShortName">data_to_send[223:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/last_bytes_to_send" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">last_bytes_to_send[2:0]</obj_property>
+      <obj_property name="ObjectShortName">last_bytes_to_send[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/in_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_rdy</obj_property>
+      <obj_property name="ObjectShortName">in_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/in_wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_wr</obj_property>
+      <obj_property name="ObjectShortName">in_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/send_timeout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">send_timeout[23:0]</obj_property>
+      <obj_property name="ObjectShortName">send_timeout[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/allow_extract" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">allow_extract</obj_property>
+      <obj_property name="ObjectShortName">allow_extract</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/extract_cnt_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">extract_cnt_reset</obj_property>
+      <obj_property name="ObjectShortName">extract_cnt_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/extract_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">extract_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">extract_cnt[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/ethertype" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ethertype[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ethertype[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/src_ip" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">src_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">src_ip[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/dst_ip" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dst_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dst_ip[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/ip_length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ip_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_length[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/pkt_length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pkt_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pkt_length[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/protocol" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">protocol[7:0]</obj_property>
+      <obj_property name="ObjectShortName">protocol[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/src_port" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">src_port[15:0]</obj_property>
+      <obj_property name="ObjectShortName">src_port[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/dst_port" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dst_port[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dst_port[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/classifier/in_flow_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_flow_id[103:0]</obj_property>
+      <obj_property name="ObjectShortName">in_flow_id[103:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/classifier/in_length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in_length[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/classifier/in_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_ready</obj_property>
+      <obj_property name="ObjectShortName">in_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/classifier/in_wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_wr</obj_property>
+      <obj_property name="ObjectShortName">in_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/classifier/out_wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_wr</obj_property>
+      <obj_property name="ObjectShortName">out_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/send_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">send_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">send_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/send_state_nxt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">send_state_nxt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">send_state_nxt[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/packet_words_remaining" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">packet_words_remaining[4:0]</obj_property>
+      <obj_property name="ObjectShortName">packet_words_remaining[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/packet_words_to_send" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">packet_words_to_send[4:0]</obj_property>
+      <obj_property name="ObjectShortName">packet_words_to_send[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/classifier/out_flow_class" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_flow_class[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_flow_class[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/classifier/out_lengths" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_lengths[32:0]</obj_property>
+      <obj_property name="ObjectShortName">out_lengths[32:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/debug_write_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">debug_write_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_write_count[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_classifier_test/uut/debug_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">debug_data[319:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_data[319:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
